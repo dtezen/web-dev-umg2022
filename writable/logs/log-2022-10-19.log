@@ -1,0 +1,353 @@
+CRITICAL - 2022-10-19 08:26:49 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:30 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:30 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:51 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:51 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:51 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:52 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:27:52 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:08 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:09 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:10 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:10 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:10 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:10 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:10 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:10 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:11 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:11 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:11 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:11 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:11 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:11 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:12 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:12 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:38 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:28:45 --> Call to a member function database() on null
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:32:21 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:38:22 --> Call to undefined function App\Controllers\rowCountPagos()
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:38:52 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:39:48 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:39:49 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:39:52 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:40:58 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:40:59 --> Too few arguments to function App\Controllers\Equipos::crearEquipos(), 0 passed in C:\wamp64\www\umg_fut\system\CodeIgniter.php on line 902 and exactly 1 expected
+in APPPATH\Controllers\Equipos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:41:43 --> Call to undefined function App\Controllers\rowCountPagos()
+in APPPATH\Controllers\Equipos.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->crearEquipos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:48:05 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Equipos.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 08:48:48 --> Class 'App\Controllers\Equipo' not found
+in APPPATH\Controllers\Goles.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-19 09:10:36 --> mysqli_sql_exception: Unknown column 'p.goals_number' in 'order clause' in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT g.id_goa...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT g.id_goa...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT g.id_goa...')
+#3 C:\wamp64\www\umg_fut\app\Controllers\Goles.php(12): CodeIgniter\Database\BaseConnection->query('SELECT g.id_goa...')
+#4 C:\wamp64\www\umg_fut\system\CodeIgniter.php(864): App\Controllers\Goles->__construct()
+#5 C:\wamp64\www\umg_fut\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-19 09:10:36 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Goles.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:30:22 --> Call to a member function insert() on null
+in APPPATH\Controllers\Goles.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->guardarGol()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:39:27 --> Call to a member function where() on null
+in APPPATH\Controllers\Goles.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->borrarGol('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:39:47 --> Call to a member function where() on null
+in APPPATH\Controllers\Goles.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->borrarGol('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:50:08 --> Invalid argument supplied for foreach()
+in APPPATH\Views\goles\editarGol.php on line 12.
+ 1 APPPATH\Views\goles\editarGol.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\goles\\editarGol.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\goles\\editarGol.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 5 APPPATH\Controllers\Goles.php(84): view('goles/editarGol', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('3')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:54:09 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(86): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:54:24 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(86): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:54:25 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(86): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:54:28 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(86): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('3')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:54:32 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(86): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:58:28 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(87): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 09:58:41 --> syntax error, unexpected '$goles' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 3 APPPATH\Controllers\Goles.php(87): view('goles/editarGol', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 10:03:42 --> Call to undefined function eco()
+in APPPATH\Views\goles\editarGol.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('goles/editarGol', [], true)
+ 4 APPPATH\Controllers\Goles.php(86): view('goles/editarGol', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-19 10:14:34 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Goles.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Goles->editarGol('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,257 @@
+CRITICAL - 2022-10-21 08:21:02 --> Invalid argument supplied for foreach()
+in APPPATH\Views\incidencias\listartIncidencias.php on line 16.
+ 1 APPPATH\Views\incidencias\listartIncidencias.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\incidencias\\listartIncidencias.php', 16, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\incidencias\\listartIncidencias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('incidencias/listartIncidencias', [], true)
+ 5 APPPATH\Controllers\Incidencias.php(15): view('incidencias/listartIncidencias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Incidencias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 08:37:32 --> Class 'App\Controllers\Jugador' not found
+in APPPATH\Controllers\Incidencias.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Incidencias->crearInci()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-21 09:02:28 --> mysqli_sql_exception: Column 'goals_number' cannot be null in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `go...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `go...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `go...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `go...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Goles.php(63): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Goles->guardarGol()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Goles))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 09:05:33 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fut_umg`.`incidence`, CONSTRAINT `id_player` FOREIGN KEY (`id_player`) REFERENCES `player` (`player_id`)) in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(69): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-21 09:19:43 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Incidencias.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Incidencias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Incidencias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Incidencias')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Incidencias')
+ 5 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Incidencias', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-21 10:20:24 --> mysqli_sql_exception: Column 'card_type' cannot be null in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 10:40:20 --> mysqli_sql_exception: Column 'card_type' cannot be null in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 11:53:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fut_umg`.`incidence`, CONSTRAINT `id_player` FOREIGN KEY (`id_player`) REFERENCES `player` (`player_id`)) in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 11:55:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fut_umg`.`incidence`, CONSTRAINT `id_player` FOREIGN KEY (`id_player`) REFERENCES `player` (`player_id`)) in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 11:56:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fut_umg`.`incidence`, CONSTRAINT `id_player` FOREIGN KEY (`id_player`) REFERENCES `player` (`player_id`)) in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 11:59:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fut_umg`.`incidence`, CONSTRAINT `id_player` FOREIGN KEY (`id_player`) REFERENCES `player` (`player_id`)) in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-21 12:00:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`fut_umg`.`incidence`, CONSTRAINT `id_player` FOREIGN KEY (`id_player`) REFERENCES `player` (`player_id`)) in C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\umg_fut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\umg_fut\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\umg_fut\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\umg_fut\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\umg_fut\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\umg_fut\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\umg_fut\app\Controllers\Incidencias.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\umg_fut\system\CodeIgniter.php(902): App\Controllers\Incidencias->guardarInci()
+#9 C:\wamp64\www\umg_fut\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Incidencias))
+#10 C:\wamp64\www\umg_fut\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\umg_fut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-21 12:32:21 --> require(C:\wamp64\www\umg_fut\public\vendor/autoload.php): failed to open stream: No such file or directory
+in APPPATH\Controllers\Reportes.php on line 3.
+ 1 APPPATH\Controllers\Reportes.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\wamp64\\www\\umg_fut\\public\\vendor/autoload.php): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Reportes.php', 3, [...])
+ 2 APPPATH\Controllers\Reportes.php(3): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Reportes.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Reportes.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reportes')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reportes')
+ 7 [internal function]: spl_autoload_call('App\\Controllers\\Reportes')
+ 8 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Reportes', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:39:06 --> require(C:\wamp64\www\umg_fut\public\vendor/autoload.php): failed to open stream: No such file or directory
+in APPPATH\Controllers\Reportes.php on line 3.
+ 1 APPPATH\Controllers\Reportes.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\wamp64\\www\\umg_fut\\public\\vendor/autoload.php): failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Reportes.php', 3, [...])
+ 2 APPPATH\Controllers\Reportes.php(3): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Reportes.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Reportes.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reportes')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reportes')
+ 7 [internal function]: spl_autoload_call('App\\Controllers\\Reportes')
+ 8 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Reportes', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:43:59 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:45:23 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:46:02 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:46:03 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:46:04 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:46:10 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:49:24 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 12:49:25 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 13:09:51 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\Reportes.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-21 13:30:48 --> Call to a member function view() on null
+in APPPATH\Controllers\Reportes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 13:31:11 --> Call to a member function WriteHTML() on null
+in APPPATH\Controllers\Reportes.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 13:35:08 --> Call to a member function library() on null
+in APPPATH\Controllers\Reportes.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Reportes->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportes))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

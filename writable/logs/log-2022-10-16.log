@@ -1,0 +1,29 @@
+CRITICAL - 2022-10-16 15:00:16 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+in APPPATH\Views\equipos\listarEquipos.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('equipos/listarEquipos', [], true)
+ 3 APPPATH\Controllers\Equipos.php(13): view('equipos/listarEquipos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 15:00:34 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+in APPPATH\Views\equipos\listarEquipos.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('equipos/listarEquipos', [], true)
+ 3 APPPATH\Controllers\Equipos.php(13): view('equipos/listarEquipos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Equipos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipos))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-16 16:46:56 --> Invalid argument supplied for foreach()
+in APPPATH\Views\equipos\listarEquipos.php on line 17.
+ 1 APPPATH\Views\equipos\listarEquipos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\equipos\\listarEquipos.php', 17, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\equipos\\listarEquipos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('equipos/listarEquipos', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('equipos/listarEquipos')
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
